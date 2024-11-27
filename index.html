@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="jquery-3.7.1.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+   
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Kalaa Gallery</h1>
+        <div id="artist-container" class="artist-container">
+            <!-- Artists will be dynamically loaded here -->
+        </div>
+        <button id="add-artist-btn" class="create-btn">Add New Artist</button>
+
+        <div id="gallery-display" class="gallery-display">
+            <h2 id="artist-name"></h2>
+            <div id="gallery-content" class="gallery-content">
+                <!-- Artworks will be dynamically loaded here -->
+            </div>
+            <button id="add-artwork-btn" class="create-btn">Add New Artwork</button>
+            <button id="close-gallery-btn" class="close-btn">Close Gallery</button>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Kalaa Gallery</p>
+    </footer>
+</body>
+</html>
